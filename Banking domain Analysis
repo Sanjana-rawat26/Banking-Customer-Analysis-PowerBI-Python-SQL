@@ -1,0 +1,231 @@
+#  Banking Customer Analysis Dashboard | Python, SQL & Power BI
+
+## Project Overview
+
+This project focuses on analyzing banking customer data using Python, SQL, and Power BI to uncover valuable insights related to customer demographics, loans, deposits, occupations, banking relationships, and income segments.
+
+The project follows a complete data analytics workflow starting from data extraction and cleaning in Python, followed by Exploratory Data Analysis (EDA), and finally building interactive Power BI dashboards to support data-driven business decisions.
+
+---
+
+##  Business Objective
+
+Banks generate large amounts of customer and financial data every day. Understanding customer behavior, lending patterns, deposit trends, and banking relationships is crucial for improving customer engagement and business performance.
+
+This project aims to transform raw banking data into meaningful insights through data analysis and visualization.
+
+---
+
+##  Tools & Technologies
+
+- Python
+- Pandas
+- NumPy
+- Matplotlib
+- Seaborn
+- MySQL
+- Jupyter Notebook
+- Power BI
+- Microsoft Excel
+
+---
+
+## Dataset Information
+
+| Attribute | Details |
+|------------|-----------|
+| Domain | Banking |
+| Records | 3,000 Customers |
+| Analysis Type | Exploratory Data Analysis & Dashboarding |
+| Tools Used | Python, SQL, Power BI |
+
+---
+
+# Project Workflow
+
+### Step 1: Data Extraction
+
+- Connected MySQL database using Python.
+- Extracted banking customer data for analysis.
+- Imported data into Pandas DataFrames.
+
+### Step 2: Data Cleaning
+
+- Checked data quality and consistency.
+- Handled missing values.
+- Verified data types.
+- Removed data inconsistencies.
+- Prepared data for analysis.
+
+### Step 3: Feature Engineering
+
+- Created Income Band categories.
+- Generated customer segmentation features.
+- Prepared data for dashboard reporting.
+
+### Step 4: Exploratory Data Analysis (EDA)
+
+Performed detailed analysis on:
+
+- Customer Demographics
+- Gender Distribution
+- Occupation Distribution
+- Nationality Analysis
+- Banking Relationship Analysis
+- Income Band Analysis
+- Loan Analysis
+- Deposit Analysis
+
+### Step 5: Dashboard Development
+
+Developed an interactive Power BI dashboard to visualize:
+
+- Customer KPIs
+- Loan Metrics
+- Deposit Metrics
+- Banking Relationship Insights
+- Executive Summary
+
+---
+
+#  Python Exploratory Data Analysis
+
+The EDA phase was performed in Jupyter Notebook using Python.
+
+### Libraries Used
+
+```python
+import pandas as pd
+import numpy as np
+import matplotlib.pyplot as plt
+import seaborn as sns
+import mysql.connector
+```
+
+### Analysis Performed
+
+- Data Inspection
+- Missing Value Analysis
+- Descriptive Statistics
+- Gender Analysis
+- Occupation Analysis
+- Nationality Analysis
+- Banking Relationship Analysis
+- Income Band Analysis
+- Loan Analysis
+- Deposit Analysis
+- Data Visualization
+
+---
+
+# Power BI Dashboard
+
+The Power BI dashboard consists of four interactive pages:
+
+---
+
+## Home Dashboard
+
+Provides a high-level overview of banking performance.
+
+### KPIs
+
+- Total Clients
+- Total Loans
+- Total Deposits
+- Savings Accounts
+- Checking Accounts
+- Business Lending
+
+---
+
+## Loan Analysis Dashboard
+
+Analyzes customer loan behavior and lending performance.
+
+### Insights Covered
+
+- Total Loan Amount
+- Business Lending
+- Credit Card Balance
+- Loan by Banking Relationship
+- Loan by Occupation
+- Loan by Nationality
+- Loan by Income Band
+
+---
+
+## Deposit Analysis Dashboard
+
+Analyzes deposit patterns across customer segments.
+
+### Insights Covered
+
+- Total Deposits
+- Savings Account Balances
+- Checking Account Balances
+- Deposit by Occupation
+- Deposit by Nationality
+- Deposit by Banking Relationship
+- Deposit by Income Band
+
+---
+
+## Executive Summary Dashboard
+
+Provides overall business insights and KPI summaries.
+
+### Includes
+
+- Customer Overview
+- Loan Highlights
+- Deposit Highlights
+- Business Performance Metrics
+- Strategic Insights
+
+---
+
+# Key Business Insights
+
+### Loan Analysis
+
+- Private Banking customers contributed the highest loan portfolio.
+- Medium-income customers accounted for the largest share of loans.
+- Loan distribution varied significantly across occupations and customer segments.
+
+### Deposit Analysis
+
+- Private Banking customers maintained the highest deposits.
+- Female customers showed strong contribution to deposit balances.
+- Medium-income customers represented the largest deposit segment.
+
+### Customer Analysis
+
+- Banking relationship type strongly influenced financial activity.
+- Income level played a major role in both lending and deposit behavior.
+- Customer demographics revealed distinct banking preferences.
+
+---
+
+# Skills Demonstrated
+
+- Data Analysis
+- Exploratory Data Analysis (EDA)
+- Python
+- SQL
+- MySQL
+- Power BI
+- Data Cleaning
+- Data Visualization
+- Dashboard Development
+- Business Intelligence
+- KPI Reporting
+- Customer Segmentation
+- Feature Engineering
+
+---
+# Project Outcome
+
+Successfully performed end-to-end banking customer analysis using Python, SQL, and Power BI. The project transformed raw banking data into actionable business insights through exploratory data analysis and interactive dashboards, enabling a deeper understanding of customer behavior, loan trends, deposit patterns, and banking relationships.
+
+
